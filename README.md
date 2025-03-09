@@ -14,7 +14,7 @@ In this Challenge, you’ll use various techniques to train and evaluate a model
 The instructions for this Challenge are divided into the following subsections:
 - Split the Data into Training and Testing Sets
 - Create a Logistic Regression Model with the Original Data
-- Write a Credit Risk Analysis Report
+- Write a Credit Risk Analysis Report (included in files attached) 
 
 # Split the Data into Training and Testing Sets
 Open the starter code notebook and use it to complete the following steps:
