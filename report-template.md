@@ -17,20 +17,14 @@ Lending organizations give loans to borrowers in the hope that the borrower woul
 
 - Using the loan company's the data set, I developed a Logistic Regression Model that produced a 99% accuracy rating. The recall value (0.91) for non-healthy loans is lower than the recall value (0.99) for healthy loans, despite the model's high accuracy. This suggests that the model will be more accurate in predicting loan statuses as healthy than as non-healthy. The imbalance in the dataset, which means that the majority of the data falls into one class label (in this example, healthy loans significantly exceeded non-healthy loans), is the cause of this.
 
-'# code
-y.value_counts()
-
-'# output
-loan_status
-0    75036
-1     2500
-Name: count, dtype: int64
-
+![image](https://github.com/user-attachments/assets/4a730be4-b57e-44af-8cdc-8c09ed4a7b47)
 
 In accordance with step 3's confusion matrix [Create an LRM with Original Imbalanced Data]:
 
-- The model accurately identified 18,663 of the 18,765 healthy (low-risk) loan statuses and wrongly identified 102.
-- The model successfully forecasted 563 of the 619 non-healthy (high-risk) loan statuses as non-healthy, whereas it mispredicted 56 of them.
+- The model accurately identified 18,655 of the 18,765 healthy (low-risk) loan statuses and wrongly identified 110.
+- The model successfully forecasted 583 of the 619 non-healthy (high-risk) loan statuses as non-healthy, whereas it mispredicted 36 of them.
+
+![image](https://github.com/user-attachments/assets/ba185eee-af8b-4d53-a60c-405af20ed958)
 
 
 ## Results
