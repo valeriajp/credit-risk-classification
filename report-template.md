@@ -9,6 +9,8 @@ Lending organizations give loans to borrowers in the hope that the borrower woul
 
 - Using the loan company's the data set, I developed a Logistic Regression Model that produced a 96% accuracy rating. The recall value (0.94) for non-healthy loans is lower than the recall value (0.99) for healthy loans, despite the model's high accuracy. This suggests that the model will be more accurate in predicting loan statuses as healthy than as non-healthy. The imbalance in the dataset, which means that the majority of the data falls into one class label (in this example, healthy loans significantly exceeded non-healthy loans), is the cause of this.
 
+We can observe that the data is extremely unbalanced by looking at the code in step 3 [Split the Data into Training and Testing Sets] using the value_counts method. Healthy loans [0] make up the majority class, whereas non-healthy loans [1] make up the minority:
+
 ![image](https://github.com/user-attachments/assets/4a730be4-b57e-44af-8cdc-8c09ed4a7b47)
 
 In accordance with step 3's confusion matrix [Create an LRM with Original Imbalanced Data]:
@@ -43,7 +45,7 @@ Although the model produced a 96% accuracy score, the dataset's imbalance might 
 - A lending organization may incur higher costs if healthy loans are labeled as non-healthy loans because it may result in a loss of clients.
 - The loss of cash provided by the lender may also make it more expensive for a lending organization to identify non-healthy loans as healthy loans.
 
-Given the significant risk of a lender losing provided funds when classifying non-healthy loans as healthy, the lending business would probably want fewer False Positives. The confusion matrices below display the data, which shows the proportion of healthy and non-healthy loans that the model correctly and incorrectly anticipated.
+Given the significant risk of a lender losing provided funds when classifying non-healthy loans as healthy, the lending business would probably want fewer False Positives. The confusion matrix displays the data, which shows the proportion of healthy and non-healthy loans that the model correctly and incorrectly anticipated.
 
 Fitting a model using unbalanced data
 
