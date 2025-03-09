@@ -1,10 +1,11 @@
 # Credit-Risk-Classification
+![20943799](https://github.com/user-attachments/assets/0abf1c92-d0dd-4711-9de3-568c486b10d3)
 
 # Background
 In this Challenge, you’ll use various techniques to train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
 # Before You Begin
-1. Create a new repository for this project called ![image](https://github.com/user-attachments/assets/be89d174-5b3a-4098-ad2c-89e8dff9bf94). *Do not add this homework to an existing repository.*
+1. Create a new repository for this project called ![image](https://github.com/user-attachments/assets/be89d174-5b3a-4098-ad2c-89e8dff9bf94). **Do not add this homework to an existing repository.**
 2. Clone the new repository to your computer.
 3. Inside your ![image](https://github.com/user-attachments/assets/4261223b-9092-4c14-85d9-2ceecb17bec4) repository, create a folder titled "Credit_Risk."
 4. Inside the "Credit_Risk" folder, add the ![image](https://github.com/user-attachments/assets/4b5adfb3-e005-4e14-b5c1-291c19e2cc51) and ![image](https://github.com/user-attachments/assets/9d7b75a1-e3d7-4fa1-a526-6b7f988c04dc) files found in the "Starter_Code.zip" file.
